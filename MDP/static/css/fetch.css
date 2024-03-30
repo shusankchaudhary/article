@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('t1.jpg'); /* Replace 'background_image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.5s ease;
+    backdrop-filter: blur(15px);
+}
+.main{
+    /* filter: blur(50px); */
+
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.619); /* Adjust background color opacity if necessary */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.5s ease;
+}
+h2 {
+    margin-bottom: 20px;
+    transition: margin-bottom 0.5s ease;
+}
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    transition: width 0.5s ease, border-color 0.5s ease;
+}
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+h3 {
+    color: rgb(255, 0, 0);
+}
+p {
+    text-align: justify;
+    line-height: 1.2em;
+    word-spacing: 0.2em;
+}
